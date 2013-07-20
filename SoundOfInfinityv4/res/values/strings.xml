@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">Sound of Infinity</string>
+    <string name="jouer">Jouer</string>
+    <string name="options">Options</string>
+    <string name="apropos">A propos</string>
+    <string name="MainTitle">Sound of Infinity</string>
+    <string name="CMTitleMusique">Titres Musicaux</string>
+    <string name="CMDefautImageText">Image Titre Musique</string>
+    <string name="CMDefautTitre">Titre Musique</string>
+    <string name="MessageService">messageservice</string>
+    <string name="chargement">Chargement</string>
+    <string name="ScoreDefautString">"Votre score est de : "</string>
+    <string name="ScoreRejouer">Rejouer</string>
+    <string name="ScoreRetourListe">Retour aux titres</string>
+    <string name="MeilleurScore">Nouveau meilleur score !</string>
+
+</resources>

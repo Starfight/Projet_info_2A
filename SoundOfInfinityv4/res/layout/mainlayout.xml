@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper_sound"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="50dp" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/MainPaddingBotTitle"
+        android:paddingTop="@dimen/MainPaddingTopTitle"
+        android:text="@string/MainTitle"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/MainTitleColor"
+        android:textSize="@dimen/MainTitleSize"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/bMainJouer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/jouer"
+        style="@style/button_general"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/options"
+        style="@style/button_general"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/apropos"
+        style="@style/button_general"/>
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:baselineAligned="false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper_sound"
+    android:orientation="horizontal"
+    tools:context="activity.ChoixMusiqueActivity"  >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/CMTitleMusique"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="@dimen/CMTitleSize"
+            android:textStyle="bold" />
+
+        <ListView
+            android:id="@+id/listTitresMusique"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:choiceMode="singleChoice"
+			android:cacheColorHint="@android:color/transparent"
+            android:listSelector="@drawable/list_selector"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textTitreMusique"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/CMDefautTitre"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="@dimen/CMTitleSize"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@string/CMDefautImageText"
+            android:src="@drawable/croches" />
+
+        <ListView
+            android:id="@+id/listScores"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp" 
+            android:choiceMode="none"
+            android:clickable="false"/>
+
+        <Button
+            android:id="@+id/bCMJouer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/jouer"
+            style="@style/button_general"/>
+    </LinearLayout>
+
+</LinearLayout>
